@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Pokemon Teams</title>
+    <title>ICE CREAMERY</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -12,14 +12,23 @@
       </div>
     <div class="header"></div>
 
-    <div>
-      <!-- ice cream creator goes here -->
-    <div>
+    <br><br><div style="text-align: center;">
+      <form id="make-ice-cream">
+        <label for="ice-cream-name"><strong>Create A New Ice Cream:</strong></label>
+        <input type="text" id="ice-cream-name" placeholder="Ice Cream Name" style="margin-right: 10px;"><br><br>
+        <span><strong>Choose an Existing Ingredient:</strong></span>
+        <span id='list-of-ingredients' style="margin-right: 10px;"></span><br><br>
+        <label for="ice-cream-name"><strong>OR Add A New Ingredient:</strong></label>
+        <input type="text" id="new-ingredient-name" placeholder="Ingredient Name" style="margin-right: 10px;"><br><br>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    <div><br><br>
+      <hr>
 
     <main>
       <!-- New Ice Creams Go here -->
 
-      <div class="card" data-id="1"><p>The Flatiron Ice Cream Special</p>
+      <!-- <div class="card" data-id="1"><p>The Flatiron Ice Cream Special</p>
 
         <ul>
           <li>Chcolate Fudge<button class="release" data-pokemon-id="140">Remove</button></li>
@@ -27,9 +36,9 @@
 
         </ul>
         <button data-trainer-id="1">Delete Ice Cream</button>
-      </div>
+      </div> -->
     </main>
 
-    <script src="./src/index.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

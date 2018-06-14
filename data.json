@@ -1,33 +1,85 @@
 {
   "ingredients": [
     {
-      "id": 1,
-      "name": "vanilla"
-    },
-    {
-      "id": 2,
-      "name": "chocolate"
-    },
-    {
       "name": "mint",
       "id": 3
+    },
+    {
+      "name": "strawberry",
+      "id": 4
+    },
+    {
+      "name": "peanut butter cups",
+      "id": 5
+    },
+    {
+      "name": "peach",
+      "id": 6
+    },
+    {
+      "name": "cookie dough",
+      "id": 7
+    },
+    {
+      "name": "honey",
+      "id": 8
+    },
+    {
+      "name": "blackberry",
+      "id": 10
+    },
+    {
+      "name": "pistachio",
+      "id": 11
+    },
+    {
+      "name": "rhubarb",
+      "id": 12
+    },
+    {
+      "name": "fudge",
+      "id": 13
+    },
+    {
+      "name": "chocolate",
+      "id": 14
     }
   ],
   "ice_creams": [
     {
-      "id": 1,
-      "name": "new york fudge",
+      "name": "chocolate mint",
       "ingredients": [
-        1
-      ]
+        2,
+        3
+      ],
+      "id": 4
     },
     {
-      "id": 2,
-      "name": "chuncky monkey",
+      "name": "Chocolate Cookie Dough",
       "ingredients": [
         1,
-        2
-      ]
+        2,
+        7
+      ],
+      "id": 7
+    },
+    {
+      "name": "Chocolate Fudge",
+      "ingredients": [
+        2,
+        3,
+        4,
+        13
+      ],
+      "id": 8
+    },
+    {
+      "name": "Chocolate Peanut Butter",
+      "ingredients": [
+        5,
+        14
+      ],
+      "id": 9
     }
   ]
 }
